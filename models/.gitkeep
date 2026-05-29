@@ -1,0 +1,6 @@
+"""Directory for storing FAISS indices and trained models."""
+# This directory contains:
+# - FAISS vector indices (index.faiss)
+# - Metadata files (metadata.pkl)
+# - Model checkpoints
+# - Embeddings cache

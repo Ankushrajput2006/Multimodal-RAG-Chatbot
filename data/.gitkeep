@@ -1,0 +1,5 @@
+"""Data directory for storing documents and embeddings."""
+# This directory should contain:
+# - Input documents (PDFs, images, text files)
+# - Processed document chunks
+# - Vector embeddings (if stored separately)

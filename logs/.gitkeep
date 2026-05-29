@@ -1,0 +1,5 @@
+"""Directory for application logs."""
+# Log files are stored here:
+# - rag_chatbot.log - Main application logs
+# - error.log - Error logs
+# - debug.log - Debug logs
