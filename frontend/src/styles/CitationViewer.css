@@ -1,0 +1,90 @@
+/* Citation Viewer styles */
+.citations-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.app.dark .citations-section {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+.citations-toggle {
+  padding: 6px 12px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.app.dark .citations-toggle {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.citations-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.app.dark .citations-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.citations-list {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.citation-item {
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.app.dark .citation-item {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.citation-number {
+  font-weight: 600;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.citation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.citation-type {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: var(--secondary);
+}
+
+.citation-link {
+  color: var(--primary);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.citation-link:hover {
+  text-decoration: underline;
+}
+
+.citation-author {
+  font-style: italic;
+  opacity: 0.8;
+}
